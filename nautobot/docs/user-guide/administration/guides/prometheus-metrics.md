@@ -34,7 +34,7 @@ For more information see the [`django-prometheus`](https://github.com/korfuri/dj
 
 +++ 2.1.5
 
-Metrics by default do not require authentication to view. Authentication can be toggled with the `METRICS_AUTHENTICATION` configuration setting. If set to `True`, this will require the user to be logged in or to use an API token. See [REST API Authentication](../../platform-functionality/rest-api/authentication.md) for more details on API authentication.
+Metrics by default do not require authentication to view. Authentication can be toggled with the `METRICS_AUTHENTICATED` configuration setting. If set to `True`, this will require the user to be logged in or to use an API token. See [REST API Authentication](../../platform-functionality/rest-api/authentication.md) for more details on API authentication.
 
 ### Sample Telegraf configuration
 
